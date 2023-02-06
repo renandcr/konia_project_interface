@@ -1,19 +1,29 @@
+import InventoryBox from "../components/InventoryBox";
+
 import {
   HomePageMainComponent,
-  BoxThreeContainer,
   HomePageComponent,
-  BoxOneContainer,
-  BoxTwoContainer,
+  BoxContainer,
 } from "./style";
 
-const HomePage: React.FC = (): JSX.Element => {
+export interface IHomePage {
+  width?: string;
+}
+
+const HomePage: React.FC<IHomePage> = (): JSX.Element => {
   return (
     <HomePageMainComponent>
       <h1>Itens do inventário</h1>
       <HomePageComponent>
-        <BoxOneContainer></BoxOneContainer>
-        <BoxTwoContainer></BoxTwoContainer>
-        <BoxThreeContainer></BoxThreeContainer>
+        <BoxContainer width="15%">
+          <InventoryBox>{"ID"}</InventoryBox>
+        </BoxContainer>
+        <BoxContainer width="55%">
+          <InventoryBox>{"Nome do item"}</InventoryBox>
+        </BoxContainer>
+        <BoxContainer width="30%">
+          <InventoryBox>{"Data de criação"}</InventoryBox>
+        </BoxContainer>
       </HomePageComponent>
     </HomePageMainComponent>
   );
