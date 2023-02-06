@@ -6,8 +6,17 @@ export const HomePageMainComponent = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+export const HomePageComponent = styled.section`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  row-gap: 15px;
+  width: 98%;
+  max-width: 900px;
   h1 {
-    margin: 50px 0 15px 0;
     font-size: 22px;
     line-height: 22px;
     color: ${VARIABLES.grayColor};
@@ -23,11 +32,10 @@ export const HomePageMainComponent = styled.main`
   }
 `;
 
-export const HomePageComponent = styled.section`
+export const BoxOneContainer = styled.div`
   display: flex;
   column-gap: 2px;
-  width: 98%;
-  max-width: 900px;
+  width: 100%;
 `;
 
 export const BoxContainer = styled.div<IHomePage>`
