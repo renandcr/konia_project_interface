@@ -12,8 +12,8 @@ export const HomePageComponent = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
-  row-gap: 15px;
+  margin-top: 70px;
+  row-gap: 13px;
   width: 98%;
   max-width: 900px;
   h1 {
@@ -26,8 +26,8 @@ export const HomePageComponent = styled.section`
       line-height: 26px;
     }
     @media only screen and (min-width: 768px) {
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 28px;
+      line-height: 28px;
     }
   }
 `;

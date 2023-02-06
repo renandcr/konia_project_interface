@@ -14,10 +14,13 @@ export const InventoryBoxOneContainer = styled.div`
   margin-bottom: 2px;
   background-color: ${VARIABLES.blueColor};
   h2 {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 14px;
     color: #ffffff;
 
+    @media only screen and (min-width: 375px) {
+      font-size: 12px;
+    }
     @media only screen and (min-width: 425px) {
       font-size: 14px;
     }

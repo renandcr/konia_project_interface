@@ -41,12 +41,12 @@ This project was developed during a selection process offered by Konia Tecnologi
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [Redux](https://redux.js.org/)
-- [Material Ui](https://mui.com/)
 - [Axios](https://axios-http.com/ptbr/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Yup](https://www.npmjs.com/package/yup)
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 <br>
 

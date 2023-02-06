@@ -20,4 +20,6 @@ export const VARIABLES = {
   blueColor: "#1768ac",
   grayColor: "#333",
   grayColor2: "#d3d3d3",
+  grayColor3: "#495057",
+  colorDarkBackground: "rgba(0, 0, 0, 0.75)",
 };

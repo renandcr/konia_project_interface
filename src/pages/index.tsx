@@ -1,5 +1,8 @@
+import ModalAddProducts from "../components/ModalAddProducts";
+import DarkBackground from "../components/DarkBackground";
 import InventoryBox from "../components/InventoryBox";
 import AddButton from "../components/AddButton";
+import { useState } from "react";
 
 import {
   HomePageMainComponent,
@@ -13,11 +16,18 @@ export interface IHomePage {
 }
 
 const HomePage: React.FC<IHomePage> = (): JSX.Element => {
+  const [displayModal, setDisplayModal] = useState<boolean>(false);
+
   return (
     <HomePageMainComponent>
+      <DarkBackground displayModal={displayModal} />
+      <ModalAddProducts
+        displayModal={displayModal}
+        setDisplayModal={setDisplayModal}
+      />
       <HomePageComponent>
         <h1>Itens do inventário</h1>
-        <AddButton>{"Novo item"}</AddButton>
+        <AddButton setDisplayModal={setDisplayModal}>{"Novo item"}</AddButton>
         <BoxOneContainer>
           <BoxContainer width="15%">
             <InventoryBox>{"ID"}</InventoryBox>

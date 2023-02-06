@@ -6,7 +6,7 @@ export const AddButtonContainer = styled.button<IAddButton>`
   display: flex;
   align-items: center;
   align-self: flex-end;
-  padding: 7px;
+  padding: 6px;
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   font-size: 10px;
