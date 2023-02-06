@@ -6,7 +6,7 @@ export const DefaultButtonContainer = styled.button<IDefaultButton>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   background-color: ${VARIABLES.blueColor};
-  font-size: 13px;
+  font-size: 14px;
   padding: 8px;
   color: #ffffff;
   border-radius: 4px;

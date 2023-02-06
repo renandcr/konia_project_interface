@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { GrFormClose } from "react-icons/gr";
+import DefaultButton from "../DefaultButton";
+import { IoIosClose } from "react-icons/io";
 import { Dispatch } from "react";
 
 import {
@@ -36,23 +37,15 @@ const ModalAddProducts: React.FC<IModalAddProducts> = ({
           >
             <ModalAddProductsTitleContainer>
               <h1>Adicionar Produto</h1>
-              <GrFormClose
+              <IoIosClose
                 className="icon_close"
                 onClick={() => setDisplayModal(false)}
               />
             </ModalAddProductsTitleContainer>
             <ModalAddProductsTextFieldContainer>
-              <input
-                type="text"
-                placeholder="Digite o nome do produto"
-                // value={search}
-                // onChange={}
-                // onKeyDown={(e) => {
-                //   if (e.key === "Enter")
-                //     dispatch(actionSearchProduct(search, dbProducts));
-                // }}
-              />
+              <input type="text" placeholder="Digite o nome do produto" />
             </ModalAddProductsTextFieldContainer>
+            <DefaultButton height="45px">{"Salvar Produto"}</DefaultButton>
           </motion.div>
         </ModalAddProductsContainer>
       )}
