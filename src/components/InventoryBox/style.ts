@@ -35,5 +35,5 @@ export const InventoryBoxOneContainer = styled.div`
 export const InventoryBoxTwoContainer = styled.div`
   width: 100%;
   min-height: 200px;
-  background-color: #d3d3d3;
+  background-color: ${VARIABLES.grayColor2};
 `;

@@ -12,10 +12,12 @@ export const GlobalStyle = createGlobalStyle`
     }
     button{
         cursor: pointer;
+        border: none;
     }
 `;
 
 export const VARIABLES = {
   blueColor: "#1768ac",
   grayColor: "#333",
+  grayColor2: "#d3d3d3",
 };
