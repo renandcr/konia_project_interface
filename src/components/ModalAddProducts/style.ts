@@ -17,6 +17,15 @@ export const ModalAddProductsContainer = styled.div`
     width: 100%;
     max-width: 400px;
     background-color: #ffffff;
+    p {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      column-gap: 5px;
+      font-size: 11px;
+      color: red;
+      margin-top: -12px;
+    }
   }
   .icon_close {
     font-size: 32px;
@@ -49,5 +58,6 @@ export const ModalAddProductsTextFieldContainer = styled.div`
     padding-left: 10px;
     border: none;
     background-color: #f8f8f8;
+    outline-color: gray;
   }
 `;

@@ -1,7 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import DefaultButton from "../DefaultButton";
 import { IoIosClose } from "react-icons/io";
-import { Dispatch } from "react";
+import { Dispatch, useState } from "react";
+import { toast } from "react-toastify";
+import api from "../../assets/axios";
 
 import {
   ModalAddProductsTextFieldContainer,
@@ -24,6 +26,17 @@ const ModalAddProducts: React.FC<IModalAddProducts> = ({
   setDisplayModal,
   displayModal,
 }): JSX.Element => {
+  const [inputValue, setInputValue] = useState<string>("");
+
+  const submissionMethod = (data: string) => {
+    api
+      .post(`/product`, { name: data })
+      .then()
+      .catch((err) => {
+        toast.error(err.response.data.name[0]);
+      });
+  };
+
   return (
     <AnimatePresence>
       {displayModal && (
@@ -43,9 +56,19 @@ const ModalAddProducts: React.FC<IModalAddProducts> = ({
               />
             </ModalAddProductsTitleContainer>
             <ModalAddProductsTextFieldContainer>
-              <input type="text" placeholder="Digite o nome do produto" />
+              <input
+                type="text"
+                placeholder="Digite o nome do produto"
+                autoFocus
+                onChange={(e) => setInputValue(e.target.value)}
+              />
             </ModalAddProductsTextFieldContainer>
-            <DefaultButton height="45px">{"Salvar Produto"}</DefaultButton>
+            <DefaultButton
+              height="45px"
+              onClick={() => submissionMethod(inputValue)}
+            >
+              {"Salvar Produto"}
+            </DefaultButton>
           </motion.div>
         </ModalAddProductsContainer>
       )}
