@@ -15,6 +15,10 @@ This project was developed during a selection process offered by Konia Tecnologi
 
 <br>
 
+### Check out the presentation video [here.](https://drive.google.com/file/d/15LDmweNz7cSSPyOXMvi--MYfYqqzI20r/view?usp=sharing)
+
+<br>
+
 ### Project status 🚀 under development!
 
 <br>
@@ -47,6 +51,9 @@ This project was developed during a selection process offered by Konia Tecnologi
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 <br>
+
+### Auxiliary tools
+- [Project Trello](https://trello.com/invite/b/1VBcO23u/ATTIc26549b84c8f528cf7fe584695dcacc570D29B69/konia-project)
 
 ## Author
 
