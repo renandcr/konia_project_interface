@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+<h1 style="text-align: center; color: #132A43">Konia Project Interface</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Project description
 
-## Available Scripts
+This project was developed during a selection process offered by Konia Tecnologia. The development of an API for registering and listing products was requested. The API code was written in Python using the Django framework. An interface developed in React.js was also required. The interface is a complement to the API, it has a main screen where all the products that are saved in the database are rendered, in addition to a button for inserting new products. [Access the API repository by clicking here](https://github.com/renandcr/konia_project).
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/renandcr/konia_project_interface)
+![GitHub language count](https://img.shields.io/github/languages/count/renandcr/konia_project_interface)
+![GitHub top language](https://img.shields.io/github/languages/top/renandcr/konia_project_interface)
+![GitHub repo size](https://img.shields.io/github/repo-size/renandcr/konia_project_interface)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/renandcr/konia_project_interface)
+![GitHub](https://img.shields.io/github/license/renandcr/konia_project_interface)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Project status 🚀 under development!
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Index
 
-### `yarn build`
+- [⚙️ Features](#️-features)
+- [🛠️ Technologies used](#️-technologies-used)
+- [Author](#author)
+- [License](#license)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙️ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Add products to inventory
+2. View products saved in inventory
 
-### `yarn eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠️ Technologies used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Redux](https://redux.js.org/)
+- [Axios](https://axios-http.com/ptbr/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author
 
-## Learn More
+<h4><img alt="Profile picture" src="src/assets/images/profile_photo_2.JPG" style="width: 100px; border-radius: 50px"/></h4>
+Renan Ribeiro 🚀
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+
+Made with ❤️ by Renan Ribeiro 👋 Get in touch!
+
+![WHATSAPP](<https://img.shields.io/badge/+55(43)996935385-25D366?style=flat-square&logo=whatsapp&logoColor=white>)
+![GMAIL](https://img.shields.io/badge/renandcribeiro@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)
+<a href="https://www.linkedin.com/in/renandcr">
+<img src="https://img.shields.io/badge/Renan-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+
+<br>
+
+## License
+
+Licensed under [MIT](https://github.com/renandcr/konia_project_interface/blob/development/LICENSE.md).
