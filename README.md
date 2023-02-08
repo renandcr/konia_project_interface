@@ -15,7 +15,7 @@ This project was developed during a selection process offered by Konia Tecnologi
 
 <br>
 
-### Check out the presentation video [here.](https://drive.google.com/file/d/15LDmweNz7cSSPyOXMvi--MYfYqqzI20r/view?usp=sharing)
+### Check out the presentation video [here.](https://drive.google.com/file/d/1E5nbfhpfIFIN2cMJmoN22U7ygs0BC2up/view?usp=sharing)
 
 <br>
 
