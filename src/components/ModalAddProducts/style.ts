@@ -58,6 +58,6 @@ export const ModalAddProductsTextFieldContainer = styled.div`
     padding-left: 10px;
     border: none;
     background-color: #f8f8f8;
-    outline-color: gray;
+    outline-color: ${VARIABLES.blueColor};
   }
 `;

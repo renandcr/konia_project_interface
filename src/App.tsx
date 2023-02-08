@@ -1,7 +1,7 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { GlobalStyle } from "./styles/global";
-import HomePage from "./pages";
+import HomePage from "./pages/HomePage";
 import "./App.css";
 
 function App() {

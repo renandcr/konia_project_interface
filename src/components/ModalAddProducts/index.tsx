@@ -1,9 +1,11 @@
+import { actionAddProducts } from "../../modules/dbProducts/actions";
 import { motion, AnimatePresence } from "framer-motion";
 import DefaultButton from "../DefaultButton";
 import { IoIosClose } from "react-icons/io";
-import { Dispatch, useState } from "react";
+import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import api from "../../assets/axios";
+import * as React from "react";
 
 import {
   ModalAddProductsTextFieldContainer,
@@ -18,23 +20,26 @@ declare module "framer-motion" {
 }
 
 export interface IModalAddProducts {
-  setDisplayModal: Dispatch<boolean>;
+  setDisplayModal: React.Dispatch<boolean>;
   displayModal: boolean;
 }
 
 const ModalAddProducts: React.FC<IModalAddProducts> = ({
   setDisplayModal,
   displayModal,
-}): JSX.Element => {
-  const [inputValue, setInputValue] = useState<string>("");
+}) => {
+  const [inputValue, setInputValue] = React.useState("");
+
+  const dispatch = useDispatch();
 
   const submissionMethod = (data: string) => {
     api
       .post(`/product`, { name: data })
-      .then()
-      .catch((err) => {
-        toast.error(err.response.data.name[0]);
-      });
+      .then((response) => {
+        dispatch(actionAddProducts(response.data));
+        toast.success("Item cadastrado com sucesso");
+      })
+      .catch((err) => toast.error(err.response.data.name[0]));
   };
 
   return (

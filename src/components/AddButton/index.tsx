@@ -1,11 +1,10 @@
 import { AddButtonContainer } from "./style";
-import { ReactNode, Dispatch } from "react";
 import { RiAddLine } from "react-icons/ri";
 import React from "react";
 
 export interface IAddButton {
-  setDisplayModal: Dispatch<boolean>;
-  children?: string | ReactNode;
+  setDisplayModal: React.Dispatch<boolean>;
+  children?: string | React.ReactNode;
   height?: string;
   width?: string;
 }
@@ -15,7 +14,7 @@ const AddButton: React.FC<IAddButton> = ({
   children,
   height,
   width,
-}): JSX.Element => {
+}) => {
   return (
     <AddButtonContainer
       setDisplayModal={setDisplayModal}

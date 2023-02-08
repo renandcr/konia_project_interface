@@ -12,7 +12,7 @@ const DefaultButton: React.FC<IDefaultButton> = ({
   height,
   width,
   ...rest
-}): JSX.Element => {
+}) => {
   return (
     <DefaultButtonContainer height={height} width={width} {...rest}>
       {children}
