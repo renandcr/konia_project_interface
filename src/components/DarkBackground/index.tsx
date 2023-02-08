@@ -4,9 +4,7 @@ export interface IDarkBackground {
   displayModal: boolean;
 }
 
-const DarkBackground: React.FC<IDarkBackground> = ({
-  displayModal,
-}): JSX.Element => {
+const DarkBackground: React.FC<IDarkBackground> = ({ displayModal }) => {
   return <>{displayModal && <DarkBackgroundContainer />}</>;
 };
 

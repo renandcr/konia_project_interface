@@ -1,20 +1,13 @@
-import {
-  InventoryBoxTwoContainer,
-  InventoryBoxOneContainer,
-  InventoryBoxContainer,
-} from "./style";
+import { InventoryBoxContainer } from "./style";
 
 export interface IInventoryBox {
   children: string;
 }
 
-const InventoryBox: React.FC<IInventoryBox> = ({ children }): JSX.Element => {
+const InventoryBox: React.FC<IInventoryBox> = ({ children }) => {
   return (
     <InventoryBoxContainer>
-      <InventoryBoxOneContainer>
-        <h2>{children}</h2>
-      </InventoryBoxOneContainer>
-      <InventoryBoxTwoContainer />
+      <h2>{children}</h2>
     </InventoryBoxContainer>
   );
 };

@@ -11,6 +11,7 @@ This project was developed during a selection process offered by Konia Tecnologi
 ![GitHub top language](https://img.shields.io/github/languages/top/renandcr/konia_project_interface)
 ![GitHub repo size](https://img.shields.io/github/repo-size/renandcr/konia_project_interface)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/renandcr/konia_project_interface)
+![GitHub](https://img.shields.io/github/license/renandcr/konia_project_interface)
 
 <br>
 
@@ -22,7 +23,6 @@ This project was developed during a selection process offered by Konia Tecnologi
 
 - [⚙️ Features](#️-features)
 - [🛠️ Technologies used](#️-technologies-used)
-- [💻 Quick start](#-quick-start)
 - [Author](#author)
 - [License](#license)
 
@@ -42,15 +42,9 @@ This project was developed during a selection process offered by Konia Tecnologi
 - [Styled Components](https://styled-components.com/)
 - [Redux](https://redux.js.org/)
 - [Axios](https://axios-http.com/ptbr/)
-- [React Hook Form](https://react-hook-form.com/)
-- [Yup](https://www.npmjs.com/package/yup)
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Icons](https://react-icons.github.io/react-icons/)
-
-<br>
-
-## 💻 Quick start
 
 <br>
 
@@ -73,3 +67,5 @@ Made with ❤️ by Renan Ribeiro 👋 Get in touch!
 <br>
 
 ## License
+
+Licensed under [MIT](https://github.com/renandcr/konia_project_interface/blob/development/LICENSE.md).
