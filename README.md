@@ -21,8 +21,8 @@ This project was developed during a selection process offered by Konia Tecnologi
 
 ### Index
 
-- [⚙️ Features](#️-features)
-- [🛠️ Technologies used](#️-technologies-used)
+- [Features](#️-features)
+- [Technologies used](#️-technologies-used)
 - [Author](#author)
 - [License](#license)
 
