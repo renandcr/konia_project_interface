@@ -50,10 +50,12 @@ This project was developed during a selection process offered by Konia Tecnologi
 - [Framer Motion](https://www.framer.com/motion/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
-<br>
-
 ### Auxiliary tools
 - [Project Trello](https://trello.com/invite/b/1VBcO23u/ATTIc26549b84c8f528cf7fe584695dcacc570D29B69/konia-project)
+
+<br>
+
+<br>
 
 ## Author
 
